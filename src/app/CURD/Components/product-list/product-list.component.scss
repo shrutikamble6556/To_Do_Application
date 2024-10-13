@@ -1,31 +1,29 @@
-.product-list-container {
-  .col-width-small {
-    width: 90px;
-  }
+.container {
+  max-width: 1000px; /* Set a max width for larger screens */
+}
 
-  .col-width-medium {
-    width: 180px;
-  }
+.table {
+  font-size: 1rem; /* Font size for table */
+}
 
-  .col-width-large {
-    width: 300px;
-  }
+.table th {
+  text-align: center; /* Center align the header text */
+  background-color: #343a40; /* Dark background for header */
+  color: white; /* White text color for better contrast */
+}
 
-  .img-adjust {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
+.table td {
+  vertical-align: middle; /* Vertically align the content in table cells */
+}
 
-  td {
-    vertical-align: middle;
-  }
+.btn {
+  margin-right: 5px; /* Space between buttons */
+}
 
-  .cursor-pointer {
-    cursor: pointer;
-  }
+.mt-5 {
+  margin-top: 3rem !important; /* Adjust margin for better spacing */
+}
 
-  .border-none {
-    border: none;
-  }
+.mb-3 {
+  margin-bottom: 1rem !important; /* Bottom margin for the add button */
 }
